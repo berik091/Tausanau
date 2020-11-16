@@ -1,0 +1,56 @@
+.header{
+  background-color: #002953;
+  color: #fff;
+  .row{
+    margin: 0 auto;
+    display: flex;
+    //justify-content: space-between;
+    align-items: center;
+    width: 1250px;
+    height: 65px;
+    .logo{
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      padding-right: 16px;
+      img{
+        height: 30px;
+      }
+    }
+    .dropdown_block{
+      display: flex;
+      height: 100%;
+      background-color: #0089ED;
+      font-size: 16px;
+      .dropdown_menu,
+      .dropdown_time{
+        width: 100px;
+        text-align: center;
+        border-right: 1px solid #002953;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+      .refresh_page{
+        width: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .header_title{
+      text-align: center;
+      font-size: 24px;
+    }
+    .sign_block{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .material-icons{
+        padding-left: 10px
+      }
+    }
+  }
+
+}

@@ -1,0 +1,30 @@
+.category_news{
+  width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  //border: 1px solid #000;
+  background-color: #003C77;
+  color: #fff;
+  .category-block{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    //div{
+    //  padding: 0 10px ;
+    //}
+  }
+  //.count_news{
+  //  height: 50px;
+  //  span.text_count{
+  //    padding: 0 16px;
+  //  }
+  //  //.material-icons{
+  //  //  padding: 0 10px;
+  //  //  background-color: #0089ED;
+  //  //  height: 100%;
+  //  //}
+  //}
+}
